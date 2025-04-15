@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "HR Employee attrition"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1cad0bfc-12be-4f8e-8e6c-1cb71c15ddd8"
+  }
+}

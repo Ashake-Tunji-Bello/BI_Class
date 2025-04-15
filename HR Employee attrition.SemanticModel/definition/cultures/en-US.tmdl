@@ -1,0 +1,6021 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "HRemployeeattrition": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "HR-employee-attrition": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HR employee attrition": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "employee attrition": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hr-employee-abrasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "hr-employee-erosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "hr employee abrasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "hr employee erosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "employee abrasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "employee erosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.attrition": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Attrition"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attrition": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "abrasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "erosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.business_travel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "BusinessTravel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "business travel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BusinessTravel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "travel": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "biz travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "industry travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commerce travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corporation travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "employer travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "enterprise travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "establishment travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commercial travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "corporate travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "firm travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.daily_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "DailyRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "daily rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DailyRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "daily degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "daily amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.department": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Department"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "department": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "branch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "specialty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "realm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.distance_from_home": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "DistanceFromHome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distance from home": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DistanceFromHome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "distance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "coldness from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "aloofness from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "detachment from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "remoteness from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "reserve from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "coldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aloofness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remoteness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expanse from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.education": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Education"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tutelage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "teaching": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "schooling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tutoring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "learning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "training": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "culture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.education_field": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "EducationField"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education field": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EducationField": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "field": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "education arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "education turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "education ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "education pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "education park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.employee_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "EmployeeCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "employee count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmployeeCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "employee amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.employee_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "EmployeeNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "employee number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmployeeNumber": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "employee no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.environment_satisfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "EnvironmentSatisfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "environment satisfaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EnvironmentSatisfaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "satisfaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "environment gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "environment consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "environment fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "environment fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "environment approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "environment happiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.hourly_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "HourlyRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hourly rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HourlyRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hourly degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hourly amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.job_involvement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "JobInvolvement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job involvement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobInvolvement": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "involvement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job participation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job engrossment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job immersion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job envelopment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job association": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "participation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.job_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "JobLevel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobLevel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "job threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "job amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.job_role": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "JobRole"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job role": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobRole": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job hero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job heroine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job protagonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "protagonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "job part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "job character": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.job_satisfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "JobSatisfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job satisfaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobSatisfaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "satisfaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "job approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "job happiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.marital_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "MaritalStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marital status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MaritalStatus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "marital category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "marital condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "marital class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.monthly_income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "MonthlyIncome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly income": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlyIncome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "income": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.monthly_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "MonthlyRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlyRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.num_company_worked": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "NumCompaniesWorked"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num company worked": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NumCompaniesWorked": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "num co worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num corp worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num corporation worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num corps worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num employer worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num enterprise worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num business worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "num group worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "num conglomerate worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "num co inc worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.623
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.over_18": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Over18"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "over 18": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Over18": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.over_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "OverTime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "over time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OverTime": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "over duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "over interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "over moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "over period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "over timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.percent_salary_hike": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "PercentSalaryHike"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percent salary hike": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PercentSalaryHike": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hike": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "salary hike": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "percent salary trek": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary ramble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary walk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary climb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary scramble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary trudge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary tramp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary slog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "salary trek": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary ramble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.performance_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "PerformanceRating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "performance rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PerformanceRating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "performance assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "performance evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performance score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "performance grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "performance ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "performance mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.relationship_satisfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "RelationshipSatisfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "relationship satisfaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RelationshipSatisfaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "satisfaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "relationship gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relationship consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relationship fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relationship fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "relationship happiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.standard_hour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "StandardHours"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard hour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardHours": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "standard period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "standard era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "standard epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "standard age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.stock_option_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "StockOptionLevel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stock option level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StockOptionLevel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "option level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "stock option quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "stock option threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "option quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "option threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "stock option amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.total_working_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "TotalWorkingYears"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total working year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalWorkingYears": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "working year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total working yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "working yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "aggregate working year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall working year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.training_times_last_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "TrainingTimesLastYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "training times last year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "training time last year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "TrainingTimesLastYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "last year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "times last year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "time last year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "time last yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "last yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "time end year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time final year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time closing year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time concluding year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time finishing year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time former year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time latest year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time latter year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.work_life_balance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "WorkLifeBalance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "work life balance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorkLifeBalance": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "balance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "life balance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "work life equilibrium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "work life stability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "work life steadiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "life equilibrium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "life stability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "life steadiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "work life poise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "equilibrium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "steadiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.year_at_company": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "YearsAtCompany"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year at company": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsAtCompany": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr at company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "year at co": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at corp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at corporation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at corps": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at enterprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "year at group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "year at conglomerate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.year_in_current_role": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "YearsInCurrentRole"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year in current role": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsInCurrentRole": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "current role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "in current role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "yr in current role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "in latest role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in contemporary role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in present role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in present day role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        },
+			        {
+			          "year in latest role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year in contemporary role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year in present role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "latest role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.year_since_last_promotion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "YearsSinceLastPromotion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year since last promotion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsSinceLastPromotion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr since last promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "year since end promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since final promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since closing promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since concluding promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since finishing promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since former promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since latest promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since latter promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since past promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.year_with_curr_manager": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "YearsWithCurrManager"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year with curr manager": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsWithCurrManager": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr with curr manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.attrition_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Attrition Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attrition count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "attrition amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.retention_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Retention Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "retention count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "retention amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.education_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Education Level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "education quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "education threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "education amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.age_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Age Level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "age quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "age threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "age amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.retention": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "retention (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "retention": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "retention (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preservation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "retaining": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "withholding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "memory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "recollection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "remembering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "memorizing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "RET(%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "HRemployeeattrition.attrition1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "attrition (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attrition": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "attrition (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "abrasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "erosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ATTR(%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "HRemployeeattrition.male_gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Male Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "male gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "male sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "male sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.female_gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "Female Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "female gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "female sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "female sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition.female": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "female (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "female": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "female (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lady": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "woman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "HRemployeeattrition.male": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR-Employee-Attrition",
+			          "ConceptualProperty": "male (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "male": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "male (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "masculine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "macho": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bloke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "boy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "fella": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "gentleman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "man": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "guy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "fellow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "chap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "HRemployeeattrition_has_female": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.female": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.female"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.female"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_female"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_female_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.female_gender": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.female_gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.female_gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_female_gender"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_male_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.male_gender": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.male_gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.male_gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_male_gender"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_attrition1": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.attrition1": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.attrition1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.attrition1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_attrition"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_retention": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.retention": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.retention"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.retention"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_retention"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_age_level": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.age_level": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.age_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.age_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_age_levels"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_education_level": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.education_level": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.education_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.education_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_education_levels"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_retention_count": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.retention_count": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.retention_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.retention_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_retention_count"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_attrition_count": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.attrition_count": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.attrition_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.attrition_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_attrition_count"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_year_with_curr_manager": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.year_with_curr_manager": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.year_with_curr_manager"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.year_with_curr_manager"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_year_with_curr_manager"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_year_since_last_promotion": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.year_since_last_promotion": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.year_since_last_promotion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.year_since_last_promotion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_year_since_last_promotion"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_year_in_current_role": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.year_in_current_role": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.year_in_current_role"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.year_in_current_role"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_year_in_current_role"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_year_at_company": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.year_at_company": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.year_at_company"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.year_at_company"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_year_at_company"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_work_life_balance": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.work_life_balance": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.work_life_balance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.work_life_balance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_work_life_balances"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_training_times_last_year": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.training_times_last_year": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.training_times_last_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.training_times_last_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_training_times_last_year"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_total_working_year": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.total_working_year": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.total_working_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.total_working_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_total_working_years"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_stock_option_level": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.stock_option_level": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.stock_option_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.stock_option_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_stock_option_levels"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_standard_hour": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.standard_hour": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.standard_hour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.standard_hour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_standard_hours"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_relationship_satisfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.relationship_satisfaction": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.relationship_satisfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.relationship_satisfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_relationship_satisfactions"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_performance_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.performance_rating": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.performance_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.performance_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_performance_rating"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_percent_salary_hike": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.percent_salary_hike": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.percent_salary_hike"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.percent_salary_hike"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_percent_salary_hikes"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_over_time": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.over_time": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.over_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.over_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_over_time"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Prepositions": [
+			              {
+			                "over": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "HRemployeeattrition.over_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_are_over_over_time"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_over_18": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.over_18": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.over_18"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.over_18"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_over_18"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_num_company_worked": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.num_company_worked": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.num_company_worked"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.num_company_worked"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_num_company_worked"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_monthly_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.monthly_rate": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.monthly_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.monthly_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_monthly_rates"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_monthly_income": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.monthly_income": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.monthly_income"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.monthly_income"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_monthly_incomes"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_marital_status": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.marital_status": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.marital_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.marital_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_marital_statuses"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_job_satisfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.job_satisfaction": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.job_satisfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.job_satisfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_job_satisfactions"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_job_role": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.job_role": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.job_role"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.job_role"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_job_roles"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_job_level": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.job_level": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.job_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.job_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_job_levels"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_job_involvement": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.job_involvement": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.job_involvement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.job_involvement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_job_involvements"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_hourly_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.hourly_rate": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.hourly_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.hourly_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_hourly_rates"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.gender": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_genders"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_environment_satisfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.environment_satisfaction": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.environment_satisfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.environment_satisfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_environment_satisfactions"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_employee_number": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.employee_number": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.employee_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.employee_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_employee_numbers"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_employee_count": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.employee_count": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.employee_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.employee_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_employee_counts"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_education_field": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.education_field": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.education_field"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.education_field"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_education_fields"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_education": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.education": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.education"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.education"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_educations"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_distance_from_home": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.distance_from_home": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.distance_from_home"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.distance_from_home"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_distance_from_home"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_department": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.department": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.department"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.department"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_departments"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_daily_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.daily_rate": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.daily_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.daily_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_daily_rates"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_business_travel": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.business_travel": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.business_travel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.business_travel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_business_travels"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_attrition": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.attrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.attrition"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.attrition"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_attritions"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_age": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.age": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "HRemployeeattrition.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "age_indicates_how_old_HRemployeeattritions_are"
+			        }
+			      ]
+			    },
+			    "HRemployeeattrition_has_male": {
+			      "Binding": {
+			        "ConceptualEntity": "HR-Employee-Attrition"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HRemployeeattrition": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition"
+			          }
+			        },
+			        "HRemployeeattrition.male": {
+			          "Target": {
+			            "Entity": "HRemployeeattrition.male"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HRemployeeattrition"
+			            },
+			            "Object": {
+			              "Role": "HRemployeeattrition.male"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HRemployeeattritions_have_male"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+
