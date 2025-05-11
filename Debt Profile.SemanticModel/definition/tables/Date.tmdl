@@ -1,0 +1,23 @@
+table Date
+	lineageTag: cf894021-847e-486b-a2f7-60d987eca696
+
+	column Date
+		formatString: General Date
+		lineageTag: dabd2b65-9474-4bd5-a050-54ae6d6d14f2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: b0e3e328-8035-4268-82a1-1c954f1ec0ab
+			defaultHierarchy: LocalDateTable_811c3ee9-ecc8-4f5d-a95a-588aa782d1a2.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Date = calculated
+		mode: import
+		source = CALENDARAUTO()
+
+	annotation PBI_Id = 77e5c77156a140c6810309d4d31fab25
+

@@ -1,0 +1,34 @@
+table Country
+	lineageTag: 9e61a27b-d963-4824-9ca8-a5d284c365eb
+
+	column 'Country Name'
+		dataType: string
+		lineageTag: e3af84f7-51dc-4069-bed8-0ed35c88b527
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: Country Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Country Code'
+		dataType: string
+		lineageTag: 5bfa69d4-6888-4257-8051-d653c4bf80ab
+		summarizeBy: none
+		sourceColumn: Country Code
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Country = m
+		mode: import
+		source =
+				let
+				    Source = Data,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"Country Name", "Country Code"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns", {"Country Name"})
+				in
+				    #"Removed Duplicates"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

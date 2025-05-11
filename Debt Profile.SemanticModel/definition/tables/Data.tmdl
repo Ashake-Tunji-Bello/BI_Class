@@ -1,0 +1,134 @@
+table Data
+	lineageTag: ed7028e4-bfb8-4aa6-943c-eee8ac98c8c6
+
+	measure 'Total Debt' = SUM(Data[Debt])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: b61120be-65e4-47c3-af20-6fed975611ea
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure Debt_Growth = ```
+			
+			VAR CurrentDebt = SUM(Data[Debt])
+			VAR PrevDebt = 
+			    CALCULATE(
+			        SUM(Data[Debt]),
+			        SAMEPERIODLASTYEAR(Data[Date]) 
+			    )
+			RETURN
+			DIVIDE(CurrentDebt - PrevDebt, PrevDebt) * 100
+			
+			```
+		formatString: 0%;-0%;0%
+		lineageTag: 19ce4d18-ca1f-43fb-8b4c-3e4afd8c10d4
+
+	column 'Country Name'
+		dataType: string
+		lineageTag: aecbcc89-3db3-4e50-bc55-0a5a1235a437
+		summarizeBy: none
+		sourceColumn: Country Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Country Code'
+		dataType: string
+		lineageTag: 42968053-9bcf-4241-b2c7-15aa9b58dcde
+		summarizeBy: none
+		sourceColumn: Country Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Indicator Name'
+		dataType: string
+		lineageTag: f19fcb8e-2fcb-40a2-ae5c-06d13deb5a7f
+		summarizeBy: none
+		sourceColumn: Indicator Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Indicator Code'
+		dataType: string
+		lineageTag: fa3305fd-562c-4b8f-bd4b-5be2a4b52bbb
+		summarizeBy: none
+		sourceColumn: Indicator Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year-Quarter
+		dataType: string
+		lineageTag: a47381d0-aa40-46a9-bc00-147529d25824
+		summarizeBy: none
+		sourceColumn: Year-Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Debt
+		dataType: double
+		lineageTag: 85b48758-3c40-4357-9e36-1e8b4d3ba410
+		summarizeBy: sum
+		sourceColumn: Debt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3426f29f-312f-45d8-a66a-f5ff23106e40
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Quarter
+		dataType: string
+		lineageTag: e4c37863-5612-4039-94b1-a2c1f21751e7
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 89cbd41e-6df3-45e7-838b-6a64614dfc82
+		summarizeBy: none
+		sourceColumn: Year
+
+		variation Variation
+			isDefault
+			relationship: df01f4cb-36db-423a-bb38-c64da4072bf1
+			defaultHierarchy: LocalDateTable_5339d170-e7a8-4f87-a958-4822a4628bf7.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Data = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\tunji\Downloads\Telegram Desktop\SDDSEXCEL.xlsx"), null, true),
+				    Data_Sheet = Source{[Item="Data",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Data_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Country Name", type text}, {"Country Code", type text}, {"Indicator Name", type text}, {"Indicator Code", type text}, {"1998Q1", type any}, {"1998Q2", type any}, {"1998Q3", type any}, {"1998Q4", type any}, {"1999Q1", type any}, {"1999Q2", type any}, {"1999Q3", type any}, {"1999Q4", type any}, {"2000Q1", type any}, {"2000Q2", type any}, {"2000Q3", type any}, {"2000Q4", type any}, {"2001Q1", type any}, {"2001Q2", type any}, {"2001Q3", type any}, {"2001Q4", type any}, {"2002Q1", type any}, {"2002Q2", type any}, {"2002Q3", type any}, {"2002Q4", type any}, {"2003Q1", type any}, {"2003Q2", type any}, {"2003Q3", type any}, {"2003Q4", type any}, {"2004Q1", type any}, {"2004Q2", type any}, {"2004Q3", type any}, {"2004Q4", type any}, {"2005Q1", type any}, {"2005Q2", type any}, {"2005Q3", type any}, {"2005Q4", type any}, {"2006Q1", type any}, {"2006Q2", type any}, {"2006Q3", type any}, {"2006Q4", type any}, {"2007Q1", type any}, {"2007Q2", type any}, {"2007Q3", type any}, {"2007Q4", type any}, {"2008Q1", type any}, {"2008Q2", type any}, {"2008Q3", type any}, {"2008Q4", type any}, {"2009Q1", type any}, {"2009Q2", type any}, {"2009Q3", type any}, {"2009Q4", type any}, {"2010Q1", type any}, {"2010Q2", type any}, {"2010Q3", type any}, {"2010Q4", type any}, {"2011Q1", type any}, {"2011Q2", type any}, {"2011Q3", type any}, {"2011Q4", type any}, {"2012Q1", type any}, {"2012Q2", type any}, {"2012Q3", type any}, {"2012Q4", type any}, {"2013Q1", type any}, {"2013Q2", type any}, {"2013Q3", type any}, {"2013Q4", type any}, {"2014Q1", type any}, {"2014Q2", type any}, {"2014Q3", type any}, {"2014Q4", type any}, {"2015Q1", type any}, {"2015Q2", type any}, {"2015Q3", type any}, {"2015Q4", type any}, {"2016Q1", type any}, {"2016Q2", type any}, {"2016Q3", type any}, {"2016Q4", type any}, {"2017Q1", type any}, {"2017Q2", type any}, {"2017Q3", type any}, {"2017Q4", type any}, {"2018Q1", type any}, {"2018Q2", type any}, {"2018Q3", type any}, {"2018Q4", type any}, {"2019Q1", type any}, {"2019Q2", type any}, {"2019Q3", type any}, {"2019Q4", type any}, {"2020Q1", type any}, {"2020Q2", type any}, {"2020Q3", type any}, {"2020Q4", type any}, {"2021Q1", type any}, {"2021Q2", type any}, {"2021Q3", type any}, {"2021Q4", type any}, {"2022Q1", type any}, {"2022Q2", type any}, {"2022Q3", type any}, {"2022Q4", type any}, {"2023Q1", type any}, {"2023Q2", type any}, {"2023Q3", type any}, {"2023Q4", type any}, {"2024Q1", type any}, {"2024Q2", type any}, {"2024Q3", type any}, {"2024Q4", type any}}),
+				    #"Unpivoted Other Columns" = Table.UnpivotOtherColumns(#"Changed Type", {"Indicator Code", "Indicator Name", "Country Code", "Country Name"}, "Attribute", "Value"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Unpivoted Other Columns",{{"Attribute", "Year-Quarter"}, {"Value", "Debt"}}),
+				    #"Inserted Text Before Delimiter" = Table.AddColumn(#"Renamed Columns", "Text Before Delimiter", each Text.BeforeDelimiter([#"Year-Quarter"], "Q"), type text),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Inserted Text Before Delimiter",{{"Text Before Delimiter", "Year"}}),
+				    #"Inserted Last Characters" = Table.AddColumn(#"Renamed Columns1", "Last Characters", each Text.End([#"Year-Quarter"], 2), type text),
+				    #"Renamed Columns2" = Table.RenameColumns(#"Inserted Last Characters",{{"Last Characters", "Quarter"}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Renamed Columns2",{{"Debt", type number}, {"Year", type date}, {"Quarter", type text}}),
+				    #"Inserted Year" = Table.AddColumn(#"Changed Type1", "Year.1", each Date.Year([Year]), Int64.Type),
+				    #"Renamed Columns3" = Table.RenameColumns(#"Inserted Year",{{"Year", "Date"}, {"Year.1", "Year"}}),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Renamed Columns3",{{"Year", type date}})
+				in
+				    #"Changed Type2"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

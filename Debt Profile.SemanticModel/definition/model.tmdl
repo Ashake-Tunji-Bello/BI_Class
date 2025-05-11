@@ -1,0 +1,28 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Data","Country","Indicator","world_gdp_data","world_population_data"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.142.928.0 (25.04)+de52df9f0bb74ad93a80d89c52d63fe6d07e0e1b
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Data
+ref table Country
+ref table Indicator
+ref table world_gdp_data
+ref table world_population_data
+ref table DateTableTemplate_60c90e5b-106c-43ca-999c-5d27b052941d
+ref table LocalDateTable_5339d170-e7a8-4f87-a958-4822a4628bf7
+ref table Date
+ref table LocalDateTable_811c3ee9-ecc8-4f5d-a95a-588aa782d1a2
+
+ref cultureInfo en-US
+

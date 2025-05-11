@@ -1,0 +1,119 @@
+table world_population_data
+	lineageTag: 308f9d93-95a3-453d-a07c-fbf697f3f6eb
+
+	measure Total_Population = SUM(world_population_data[Population])
+		formatString: 0
+		lineageTag: 1e253893-60b8-4640-9b01-af534a4ea722
+
+	measure Debt_Per_Capita = [Total Debt]/[Total_Population]
+		lineageTag: 0f6d9ad3-e620-40e6-90dd-21bdf988b274
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column rank
+		dataType: int64
+		formatString: 0
+		lineageTag: 58406e45-592e-40c2-9b29-c5793e3a7f9d
+		summarizeBy: sum
+		sourceColumn: rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column cca3
+		dataType: string
+		lineageTag: 43f7fa2c-e914-45fa-a610-f334ebb5df9d
+		summarizeBy: none
+		sourceColumn: cca3
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: a2a92edb-c7a6-469f-815a-5de87c4c68e7
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column continent
+		dataType: string
+		lineageTag: f9a6c797-d771-4e2e-8dcc-55be8adf986c
+		summarizeBy: none
+		sourceColumn: continent
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'area (km²)'
+		dataType: double
+		lineageTag: a741b471-ebed-4582-99a4-e3de8383e606
+		summarizeBy: sum
+		sourceColumn: area (km²)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'density (km²)'
+		dataType: int64
+		formatString: 0
+		lineageTag: c83e1c5e-b521-4b75-a1d8-0bd9329f40bc
+		summarizeBy: sum
+		sourceColumn: density (km²)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'growth rate'
+		dataType: double
+		lineageTag: f516a555-5d84-4fd3-b5f0-6ae37bef0a68
+		summarizeBy: sum
+		sourceColumn: growth rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'world percentage'
+		dataType: double
+		lineageTag: c57bd12e-a5c6-41c7-874d-d02b0396234a
+		summarizeBy: sum
+		sourceColumn: world percentage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Year
+		dataType: string
+		lineageTag: 772f60c8-acff-47fb-a104-9c49ebbffaf8
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Population
+		dataType: int64
+		formatString: 0
+		lineageTag: 611d5afb-9f0b-48e7-b736-8762c401d08c
+		summarizeBy: sum
+		sourceColumn: Population
+
+		annotation SummarizationSetBy = Automatic
+
+	partition world_population_data = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\tunji\Documents\BI_Class\BI_Class\world_population_data.csv"),[Delimiter=",", Columns=17, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"rank", Int64.Type}, {"cca3", type text}, {"country", type text}, {"continent", type text}, {"2023 population", Int64.Type}, {"2022 population", Int64.Type}, {"2020 population", Int64.Type}, {"2015 population", Int64.Type}, {"2010 population", Int64.Type}, {"2000 population", Int64.Type}, {"1990 population", Int64.Type}, {"1980 population", Int64.Type}, {"1970 population", Int64.Type}, {"area (km²)", type number}, {"density (km²)", Int64.Type}, {"growth rate", Percentage.Type}, {"world percentage", Percentage.Type}}),
+				    #"Unpivoted Other Columns" = Table.UnpivotOtherColumns(#"Changed Type", {"rank", "cca3", "country", "continent", "density (km²)", "area (km²)", "growth rate", "world percentage"}, "Attribute", "Value"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Unpivoted Other Columns",{{"Value", "Population"}}),
+				    #"Extracted First Characters" = Table.TransformColumns(#"Renamed Columns", {{"Attribute", each Text.Start(_, 4), type text}}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Extracted First Characters",{{"Attribute", "Year"}})
+				in
+				    #"Renamed Columns1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

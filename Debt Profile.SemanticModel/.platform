@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Debt Profile"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "89a269c4-976c-4c91-bb18-921444b6f327"
+  }
+}

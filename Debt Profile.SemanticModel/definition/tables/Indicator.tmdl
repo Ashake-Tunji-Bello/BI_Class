@@ -1,0 +1,33 @@
+table Indicator
+	lineageTag: ccb513bc-80f7-420e-87e4-da86b3f86a4b
+
+	column 'Indicator Name'
+		dataType: string
+		lineageTag: 054850b0-74f2-4eb0-b2c2-99374701c193
+		summarizeBy: none
+		sourceColumn: Indicator Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Indicator Code'
+		dataType: string
+		lineageTag: 67549819-77e0-4ebe-a431-59a593be0661
+		summarizeBy: none
+		sourceColumn: Indicator Code
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Indicator = m
+		mode: import
+		source =
+				let
+				    Source = Data,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"Indicator Name", "Indicator Code"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns", {"Indicator Name"})
+				in
+				    #"Removed Duplicates"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

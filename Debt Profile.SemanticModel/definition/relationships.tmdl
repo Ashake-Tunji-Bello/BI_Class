@@ -1,0 +1,39 @@
+relationship c9f640f6-b1a0-7cdc-22c1-53f71768e6ce
+	fromColumn: Data.'Country Code'
+	toColumn: Country.'Country Code'
+
+relationship 8f27009c-9922-d16a-f17d-531072749777
+	isActive: false
+	fromColumn: Data.'Indicator Code'
+	toColumn: Indicator.'Indicator Code'
+
+relationship AutoDetected_cfd72b78-6209-48a9-b632-c17a3fec91e5
+	fromColumn: world_gdp_data.country_name
+	toColumn: Country.'Country Name'
+
+relationship AutoDetected_177efa00-e739-46e3-98a2-966aa3dc43ca
+	fromColumn: world_population_data.country
+	toColumn: Country.'Country Name'
+
+relationship df01f4cb-36db-423a-bb38-c64da4072bf1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Data.Year
+	toColumn: LocalDateTable_5339d170-e7a8-4f87-a958-4822a4628bf7.Date
+
+relationship b0e3e328-8035-4268-82a1-1c954f1ec0ab
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Date.Date
+	toColumn: LocalDateTable_811c3ee9-ecc8-4f5d-a95a-588aa782d1a2.Date
+
+relationship c1cdf477-c7aa-13f3-8bbb-62cf9404e6fa
+	fromColumn: Data.Date
+	toColumn: Date.Date
+
+relationship 34c6a77a-da64-aadb-0827-021b00cb86f2
+	fromColumn: world_gdp_data.Year
+	toColumn: Date.Date
+
+relationship 24bd585f-81c5-dbd7-6135-cf57da06a6b5
+	fromColumn: world_population_data.Year
+	toColumn: Date.Date
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Debt Profile"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a71a9302-8e33-435c-80b1-e9b5d74d3f7b"
+  }
+}
